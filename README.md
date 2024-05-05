@@ -1,7 +1,7 @@
 # Omnia Dark Theme
  The Omnia theme from Birdycom for VS Code. This theme is based on Atom
 
-![](https://github.com/Birdycom/Omnia-Theme/blob/736ebdbb180f9ba4b21c64d1928fb30673dc6370/screenshots/OT_Blade_Sample.PNG)
+![](https://github.com/Birdycom/Omnia-Theme/blob/1d0f185c3a61de0bb17e5db424e890f10f099512/screenshots/OT_Blade_Sample.PNG)
 
 ## Installing
 
