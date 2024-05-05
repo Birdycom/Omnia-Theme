@@ -31,9 +31,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Omnia Theme",
+        "label": "Omnia Theme Main",
         "uiTheme": "vs-dark",
-        "path": "./themes/Omnia Theme-color-theme.json"
+        "path": "./themes/omniathememain.json"
       }
     ]
   }

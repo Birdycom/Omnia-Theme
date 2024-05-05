@@ -589,8 +589,7 @@
         "meta.element.structure.svg.html",
         "meta.class.body.php",
         "meta.class.php",
-        "meta.tag.structure.any.html",
-				"text.html.basic"
+        "meta.tag.structure.any.html"
       ],
       "settings": {
         "foreground": "#E06C75"
@@ -2380,7 +2379,7 @@
         "punctuation.definition.comment.php"
       ],
       "settings": {
-        "foreground": "#97A2B6" 
+        "foreground": "#6D7685" 
       }
     },
     {
@@ -2417,7 +2416,7 @@
         "punctuation.definition.comment.html"
       ],
       "settings": {
-        "foreground": "#97A2B6"
+        "foreground": "#6D7685"
       }
     },
     {
