@@ -2,13 +2,32 @@
   "name": "omnia-theme",
   "displayName": "Omnia Theme",
   "description": "The Omnia theme from Birdycom for VS Code. This theme is based on Atom",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "publisher": "Birdycom",
+  "license":"MIT",
+  "galleryBanner": {
+		"color": "#282C34",
+		"theme": "dark"
+	},   
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/Birdycom/Omnia-Theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/Birdycom/Omnia-Theme/issues"
+	},
   "engines": {
     "vscode": "^1.89.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+		"theme",
+		"dark",
+		"omnia",
+    "birdycom"
+	],
   "contributes": {
     "themes": [
       {

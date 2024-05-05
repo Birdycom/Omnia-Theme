@@ -1,16 +1,35 @@
-# omnia-theme README
+# Omnia Dark Theme
+ The Omnia theme from Birdycom for VS Code. This theme is based on Atom
 
-## Working with Markdown
+![](https://github.com/Birdycom/Omnia-Theme/blob/736ebdbb180f9ba4b21c64d1928fb30673dc6370/screenshots/OT_Blade_Sample.PNG)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installing
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/akamud.vscode-theme-onedark)  
 
-## For more information
+## What's new?
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+Click here to go to the [Changelog](https://github.com/Birdycom/Omnia-Theme/blob/736ebdbb180f9ba4b21c64d1928fb30673dc6370/extension/CHANGELOG.md)
 
-**Enjoy!**
+## Issues?
+
+If you find any inconsistency in any language, raise an Issue and I'll fix it, please provide a sample for the language so I can compare. 
+
+## Customization
+
+If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
+
+### Custom Font
+
+The original One Dark theme does not use a custom font, for that reason I don't supply a custom font either, but  you might be used to see screenshots of the One Dark theme using the [Fira Mono](https://github.com/mozilla/Fira) font. You can easily [customize your settings](https://code.visualstudio.com/docs/getstarted/settings) to use it.  
+If you download and install the font in your system, you can add this option to have a custom font:
+
+```json
+{
+    "editor.fontFamily": "YOUR FONT, Menlo, Monaco, 'Courier New', monospace"
+}
+```
+
+## Credits
+
+[Atom](https://github.com/atom)

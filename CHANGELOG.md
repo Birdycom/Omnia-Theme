@@ -7,3 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ## [Unreleased]
 
 - Initial release
+
+## Version 0.1.1
+* Starting from One Dark
+* Custom colors for html, php, css, scss, less, js, json, yaml, markdown, and python
