@@ -1,0 +1,21 @@
+{
+  "name": "omnia-theme",
+  "displayName": "Omnia Theme",
+  "description": "The Omnia theme from Birdycom for VS Code. This theme is based on Atom",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Omnia Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Omnia Theme-color-theme.json"
+      }
+    ]
+  }
+}
