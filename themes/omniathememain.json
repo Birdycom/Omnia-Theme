@@ -2296,6 +2296,16 @@
       }
     },
     {
+			"name": "HTML Entity Name Function",
+			"scope": [
+        "text.html.php.blade meta.attribute.unrecognized.x-on:click.html",
+        "text.html.php.blade meta.attribute.unrecognized.x-data.html"
+      ],
+			"settings": {
+				"foreground": "#DCDCAA"
+			}
+		},
+    {
       "name": "HTML Livewire Object",
       "scope": [
         "meta.tag.object.livewire:post-list.void.html",
