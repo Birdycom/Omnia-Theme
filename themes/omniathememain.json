@@ -446,156 +446,6 @@
       }
     },
     {
-      "name": "HTML Entity Name Tag",
-      "scope": [
-       
-       "meta.tag.structure.div.start.html",
-       "meta.tag.structure.div.end.html",
-       "meta.tag.structure.h1.start.html",
-       "meta.tag.structure.h1.end.html",
-       "meta.tag.structure.h2.start.html",
-       "meta.tag.structure.h2.end.html",
-        "meta.tag.structure.h3.start.html",
-        "meta.tag.structure.h3.end.html",
-        "meta.tag.structure.h4.start.html",
-        "meta.tag.structure.h4.end.html",
-        "meta.tag.structure.h5.start.html",
-        "meta.tag.structure.h5.end.html",
-        "meta.tag.structure.h6.start.html",
-        "meta.tag.structure.h6.end.html",
-        "meta.tag.structure.p.start.html",
-        "meta.tag.structure.p.end.html",
-        "meta.tag.structure.hr.start.html",
-        "meta.tag.structure.hr.end.html",
-        "meta.tag.structure.blockquote.start.html",
-        "meta.tag.structure.blockquote.end.html",
-        "meta.tag.structure.pre.start.html",
-        "meta.tag.structure.pre.end.html",
-        "meta.tag.structure.ul.start.html",
-        "meta.tag.structure.ul.end.html",
-        "meta.tag.structure.ol.start.html",
-        "meta.tag.structure.ol.end.html",
-        "meta.tag.structure.li.html",
-        "meta.tag.structure.dl.start.html",
-        "meta.tag.structure.dl.end.html",
-        "meta.tag.structure.dt.html",
-        "meta.tag.structure.dd.html",
-        "meta.tag.structure.table.start.html",
-        "meta.tag.structure.table.end.html",
-        "meta.tag.structure.thead.start.html",
-        "meta.tag.structure.thead.end.html",
-        "meta.tag.structure.tbody.start.html",
-        "meta.tag.structure.tbody.end.html",
-        "meta.tag.structure.tr.start.html",
-        "meta.tag.structure.tr.end.html",
-        "meta.tag.structure.th.start.html",
-        "meta.tag.structure.th.end.html",
-        "meta.tag.structure.td.start.html",
-        "meta.tag.structure.td.end.html",
-        "meta.tag.inline.a.start.html",
-        "meta.tag.inline.a.end.html",
-        "meta.tag.structure.em.start.html",
-        "meta.tag.structure.em.end.html",
-        "meta.tag.structure.strong.start.html",
-        "meta.tag.structure.strong.end.html",
-        "meta.tag.structure.small.start.html",
-        "meta.tag.structure.small.end.html",
-        "meta.tag.structure.s.start.html",
-        "meta.tag.structure.s.end.html",
-        "meta.tag.structure.cite.start.html",
-        "meta.tag.structure.cite.end.html",
-        "meta.tag.structure.q.start.html",
-        "meta.tag.structure.q.end.html",
-        "meta.tag.structure.dfn.start.html",
-        "meta.tag.structure.dfn.end.html",
-        "meta.tag.structure.abbr.start.html",
-        "meta.tag.structure.abbr.end.html",
-        "meta.tag.structure.data.start.html",
-        "meta.tag.structure.data.end.html",
-        "meta.tag.structure.time.start.html",
-        "meta.tag.structure.time.end.html",
-        "meta.tag.structure.code.start.html",
-        "meta.tag.structure.code.end.html",
-        "meta.tag.structure.var.start.html",
-        "meta.tag.structure.var.end.html",
-        "meta.tag.structure.samp.start.html",
-        "meta.tag.structure.samp.end.html",
-        "meta.tag.structure.kbd.start.html",
-        "meta.tag.structure.kbd.end.html",
-        "meta.tag.structure.sub.start.html",
-        "meta.tag.structure.sub.end.html",
-        "meta.tag.structure.sup.start.html",
-        "meta.tag.structure.sup.end.html",
-        "meta.tag.structure.i.start.html",
-        "meta.tag.structure.i.end.html",
-        "meta.tag.structure.b.start.html",
-        "meta.tag.structure.b.end.html",
-        "meta.tag.structure.u.start.html",
-        "meta.tag.structure.u.end.html",
-        "meta.tag.structure.mark.start.html",
-        "meta.tag.structure.mark.end.html",
-        "meta.tag.structure.ruby.start.html",
-        "meta.tag.structure.ruby.end.html",
-        "meta.tag.structure.rt.start.html",
-        "meta.tag.structure.rt.end.html",
-        "meta.tag.structure.button.start.html",
-        "meta.tag.structure.button.end.html",
-        "meta.tag.structure.progress.start.html",
-        "meta.tag.structure.progress.end.html",
-        "meta.tag.structure.svg.start.html",
-        "meta.tag.structure.svg.end.html",
-        "meta.tag.structure.math.start.html",
-        "meta.tag.structure.math.end.html",
-        "meta.tag.structure.nav.start.html",
-        "meta.tag.structure.nav.end.html",
-        "meta.tag.structure.section.start.html",
-        "meta.tag.structure.section.end.html",
-        "meta.tag.structure.article.start.html",
-        "meta.tag.structure.article.end.html",
-        "meta.tag.structure.aside.start.html",
-        "meta.tag.structure.aside.end.html",
-        "meta.tag.inline.span.start.html",
-        "meta.tag.inline.span.end.html",
-        "meta.tag.structure.header.start.html",
-        "meta.tag.structure.header.end.html",
-        "meta.tag.structure.footer.start.html",
-        "meta.tag.structure.footer.end.html",
-        "meta.tag.structure.address.start.html",
-        "meta.tag.structure.address.end.html",
-        "meta.tag.structure.main.start.html",
-        "meta.tag.structure.main.end.html",
-        "meta.tag.structure.figure.start.html",
-        "meta.tag.structure.figure.end.html",
-        "meta.tag.structure.figcaption.start.html",
-        "meta.tag.structure.figcaption.end.html",
-        "meta.tag.structure.details.start.html",
-        "meta.tag.structure.details.end.html",
-        "meta.tag.structure.summary.start.html",
-        "meta.tag.structure.summary.end.html",
-        "meta.tag.structure.form.start.html",
-        "meta.tag.structure.form.end.html",
-        "meta.tag.structure.label.start.html",
-        "meta.tag.structure.label.end.html",
-        "meta.tag.structure.input.void.html",
-        "meta.tag.structure.input.end.html",
-        "meta.tag.structure.select.start.html",
-        "meta.tag.structure.select.end.html",
-        "meta.tag.structure.option.start.html",
-        "meta.tag.structure.option.end.html",
-        "meta.tag.structure.textarea.start.html",
-        "meta.tag.structure.textarea.end.html",
-        "meta.tag.object.svg.path.start.html",
-        "meta.tag.object.svg.path.void.html",
-        "meta.element.structure.svg.html",
-        "meta.class.body.php",
-        "meta.class.php",
-        "meta.tag.structure.any.html"
-      ],
-      "settings": {
-        "foreground": "#E06C75"
-      }
-    },
-    {
       "name": "Entity Other Attribute Name",
       "scope": [
         "entity.other.attribute-name.html"
@@ -1246,15 +1096,6 @@
       ],
       "settings": {
         "foreground": "inherit"
-      }
-    },
-    {
-      "name": "Source Php Class Bracket",
-      "scope": [
-        "source.php class.bracket"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
       }
     },
     {
@@ -2150,26 +1991,6 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] PHP Punctuation Variable Definition",
-      "scope": [
-        "variable.language.this.php",
-        "punctuation.definition.variable.php",
-        "variable.other.php"
-      ],
-      "settings": {
-        "foreground": "#0579D8"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] PHP Meta Class",
-      "scope": [
-        "meta.class.php"
-      ],
-      "settings": {
-        "foreground": "#C2C2C2"
-      }
-    },
-    {
       "name": "(=) HTML Meta Attribute Id", 
       "scope": [
         "meta.tag.metadata.meta.void.html",
@@ -2203,7 +2024,6 @@
         "foreground": "#9C9C9C"
       }
     },
-
 		{
 			"name": "HTML ID",
 			"scope": [
@@ -2212,8 +2032,7 @@
 			"settings": {
 				"foreground": "#88F2AF"
 			}
-		}, 
-    
+		},
 		{
 			"name": "Tag Other",
 			"scope": [
@@ -2250,7 +2069,7 @@
 			}
 		},
 		{
-			"name": "Meta Brace",
+			"name": "HTML Meta Brace",
 			"scope": [
         "punctuation.section.embedded -(source string source punctuation.section.embedded)", 
         "meta.brace.erb.html",
@@ -2264,6 +2083,156 @@
 				"foreground": "#CE834A"
 			}
 		},
+    {
+      "name": "HTML Entity Name Tag",
+      "scope": [
+       
+       "meta.tag.structure.div.start.html",
+       "meta.tag.structure.div.end.html",
+       "meta.tag.structure.h1.start.html",
+       "meta.tag.structure.h1.end.html",
+       "meta.tag.structure.h2.start.html",
+       "meta.tag.structure.h2.end.html",
+        "meta.tag.structure.h3.start.html",
+        "meta.tag.structure.h3.end.html",
+        "meta.tag.structure.h4.start.html",
+        "meta.tag.structure.h4.end.html",
+        "meta.tag.structure.h5.start.html",
+        "meta.tag.structure.h5.end.html",
+        "meta.tag.structure.h6.start.html",
+        "meta.tag.structure.h6.end.html",
+        "meta.tag.structure.p.start.html",
+        "meta.tag.structure.p.end.html",
+        "meta.tag.structure.hr.start.html",
+        "meta.tag.structure.hr.end.html",
+        "meta.tag.structure.blockquote.start.html",
+        "meta.tag.structure.blockquote.end.html",
+        "meta.tag.structure.pre.start.html",
+        "meta.tag.structure.pre.end.html",
+        "meta.tag.structure.ul.start.html",
+        "meta.tag.structure.ul.end.html",
+        "meta.tag.structure.ol.start.html",
+        "meta.tag.structure.ol.end.html",
+        "meta.tag.structure.li.html",
+        "meta.tag.structure.dl.start.html",
+        "meta.tag.structure.dl.end.html",
+        "meta.tag.structure.dt.html",
+        "meta.tag.structure.dd.html",
+        "meta.tag.structure.table.start.html",
+        "meta.tag.structure.table.end.html",
+        "meta.tag.structure.thead.start.html",
+        "meta.tag.structure.thead.end.html",
+        "meta.tag.structure.tbody.start.html",
+        "meta.tag.structure.tbody.end.html",
+        "meta.tag.structure.tr.start.html",
+        "meta.tag.structure.tr.end.html",
+        "meta.tag.structure.th.start.html",
+        "meta.tag.structure.th.end.html",
+        "meta.tag.structure.td.start.html",
+        "meta.tag.structure.td.end.html",
+        "meta.tag.inline.a.start.html",
+        "meta.tag.inline.a.end.html",
+        "meta.tag.structure.em.start.html",
+        "meta.tag.structure.em.end.html",
+        "meta.tag.structure.strong.start.html",
+        "meta.tag.structure.strong.end.html",
+        "meta.tag.structure.small.start.html",
+        "meta.tag.structure.small.end.html",
+        "meta.tag.structure.s.start.html",
+        "meta.tag.structure.s.end.html",
+        "meta.tag.structure.cite.start.html",
+        "meta.tag.structure.cite.end.html",
+        "meta.tag.structure.q.start.html",
+        "meta.tag.structure.q.end.html",
+        "meta.tag.structure.dfn.start.html",
+        "meta.tag.structure.dfn.end.html",
+        "meta.tag.structure.abbr.start.html",
+        "meta.tag.structure.abbr.end.html",
+        "meta.tag.structure.data.start.html",
+        "meta.tag.structure.data.end.html",
+        "meta.tag.structure.time.start.html",
+        "meta.tag.structure.time.end.html",
+        "meta.tag.structure.code.start.html",
+        "meta.tag.structure.code.end.html",
+        "meta.tag.structure.var.start.html",
+        "meta.tag.structure.var.end.html",
+        "meta.tag.structure.samp.start.html",
+        "meta.tag.structure.samp.end.html",
+        "meta.tag.structure.kbd.start.html",
+        "meta.tag.structure.kbd.end.html",
+        "meta.tag.structure.sub.start.html",
+        "meta.tag.structure.sub.end.html",
+        "meta.tag.structure.sup.start.html",
+        "meta.tag.structure.sup.end.html",
+        "meta.tag.structure.i.start.html",
+        "meta.tag.structure.i.end.html",
+        "meta.tag.structure.b.start.html",
+        "meta.tag.structure.b.end.html",
+        "meta.tag.structure.u.start.html",
+        "meta.tag.structure.u.end.html",
+        "meta.tag.structure.mark.start.html",
+        "meta.tag.structure.mark.end.html",
+        "meta.tag.structure.ruby.start.html",
+        "meta.tag.structure.ruby.end.html",
+        "meta.tag.structure.rt.start.html",
+        "meta.tag.structure.rt.end.html",
+        "meta.tag.structure.button.start.html",
+        "meta.tag.structure.button.end.html",
+        "meta.tag.structure.progress.start.html",
+        "meta.tag.structure.progress.end.html",
+        "meta.tag.structure.svg.start.html",
+        "meta.tag.structure.svg.end.html",
+        "meta.tag.structure.math.start.html",
+        "meta.tag.structure.math.end.html",
+        "meta.tag.structure.nav.start.html",
+        "meta.tag.structure.nav.end.html",
+        "meta.tag.structure.section.start.html",
+        "meta.tag.structure.section.end.html",
+        "meta.tag.structure.article.start.html",
+        "meta.tag.structure.article.end.html",
+        "meta.tag.structure.aside.start.html",
+        "meta.tag.structure.aside.end.html",
+        "meta.tag.inline.span.start.html",
+        "meta.tag.inline.span.end.html",
+        "meta.tag.structure.header.start.html",
+        "meta.tag.structure.header.end.html",
+        "meta.tag.structure.footer.start.html",
+        "meta.tag.structure.footer.end.html",
+        "meta.tag.structure.address.start.html",
+        "meta.tag.structure.address.end.html",
+        "meta.tag.structure.main.start.html",
+        "meta.tag.structure.main.end.html",
+        "meta.tag.structure.figure.start.html",
+        "meta.tag.structure.figure.end.html",
+        "meta.tag.structure.figcaption.start.html",
+        "meta.tag.structure.figcaption.end.html",
+        "meta.tag.structure.details.start.html",
+        "meta.tag.structure.details.end.html",
+        "meta.tag.structure.summary.start.html",
+        "meta.tag.structure.summary.end.html",
+        "meta.tag.structure.form.start.html",
+        "meta.tag.structure.form.end.html",
+        "meta.tag.structure.label.start.html",
+        "meta.tag.structure.label.end.html",
+        "meta.tag.structure.input.void.html",
+        "meta.tag.structure.input.end.html",
+        "meta.tag.structure.select.start.html",
+        "meta.tag.structure.select.end.html",
+        "meta.tag.structure.option.start.html",
+        "meta.tag.structure.option.end.html",
+        "meta.tag.structure.textarea.start.html",
+        "meta.tag.structure.textarea.end.html",
+        "meta.tag.object.svg.path.start.html",
+        "meta.tag.object.svg.path.void.html",
+        "meta.element.structure.svg.html",
+        "meta.class.body.php",
+        "meta.class.php",
+        "meta.tag.structure.any.html"
+      ],
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
 		{
 			"name": "HTML String",
 			"scope": [
@@ -2308,9 +2277,111 @@
 			}
 		},
     {
+      "name": "HTML Comment Block",
+      "scope": [
+        "comment.block.html",
+        "punctuation.definition.comment.html"
+      ],
+      "settings": {
+        "foreground": "#6D7685"
+      }
+    },
+    {
+      "name": "HTML Text",
+      "scope": [
+        "text.html.php.blade"
+      ],
+      "settings": {
+        "foreground": "#f1f1f1"
+      }
+    },
+    {
+      "name": "HTML Livewire Object",
+      "scope": [
+        "meta.tag.object.livewire:post-list.void.html",
+        "meta.tag.object.livewire:post-list.html",
+        "meta.tag.object.livewire",
+        "meta.tag.object.livewire:search-box.void.html",
+        "punctuation.definition.tag.begin.blade.livewire",
+        "punctuation.definition.tag.end.blade.livewire",
+        "meta.tag.blade.livewire",
+        "entity.other.attribute-name.html meta.attribute.unrecognized.wire:model.html"
+      ],
+      "settings": {
+        "foreground": "#FFB936"
+      }
+    },
+    {
+      "name": "Livewire Tags",
+      "scope": [
+        "meta.tag.custom.end.html",
+        "meta.tag.custom.start.html"
+      ],
+      "settings": {
+        "foreground": "#FFB936"
+      }
+    },
+    {
+      "name": "Source Php Class Bracket",
+      "scope": [
+        "source.php class.bracket"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] PHP Punctuation Variable Definition",
+      "scope": [
+        "variable.language.this.php",
+        "punctuation.definition.variable.php",
+        "variable.other.php"
+      ],
+      "settings": {
+        "foreground": "#0579D8"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] PHP Meta Class",
+      "scope": [
+        "meta.class.php"
+      ],
+      "settings": {
+        "foreground": "#C2C2C2"
+      }
+    }, 
+    {
+      "name": "PHP Support Other Namespace",
+      "scope": [
+        "support.other.namespace.php"
+      ],
+      "settings": {
+        "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "name": "PHP Support Type",
+      "scope": [
+        "support.attribute.php"
+      ],
+      "settings": {
+        "foreground": "#51A0C7"
+      }
+    },
+    {
+      "name": "PHP Function-call",
+      "scope": [
+        "meta.function-call.php"
+      ],
+      "settings": {
+        "foreground": "#F1F1F1"
+      }
+    },
+    {
 			"name": "PHP Entity Name Function",
 			"scope": [
-        "entity.name.function.php"
+        "entity.name.function.php",
+        "entity.name.variable.parameter.php"
       ],
 			"settings": {
 				"foreground": "#DCDCAA"
@@ -2408,78 +2479,6 @@
       ],
       "settings": {
         "foreground": "#98C379" 
-      }
-    },
-    {
-      "name": "HTML Comment Block",
-      "scope": [
-        "comment.block.html",
-        "punctuation.definition.comment.html"
-      ],
-      "settings": {
-        "foreground": "#6D7685"
-      }
-    },
-    {
-      "name": "HTML Livewire Object",
-      "scope": [
-        "meta.tag.object.livewire:post-list.void.html",
-        "meta.tag.object.livewire:post-list.html",
-        "meta.tag.object.livewire",
-        "meta.tag.object.livewire:search-box.void.html",
-        "punctuation.definition.tag.begin.blade.livewire",
-        "punctuation.definition.tag.end.blade.livewire",
-        "meta.tag.blade.livewire",
-        "entity.other.attribute-name.html meta.attribute.unrecognized.wire:model.html"
-      ],
-      "settings": {
-        "foreground": "#FFB936"
-      }
-    },
-    {
-      "name": "Livewire Tags",
-      "scope": [
-        "meta.tag.custom.end.html",
-        "meta.tag.custom.start.html"
-      ],
-      "settings": {
-        "foreground": "#FFB936"
-      }
-    } ,
-    {
-      "name": "HTML Text",
-      "scope": [
-        "text.html.php.blade"
-      ],
-      "settings": {
-        "foreground": "#f1f1f1"
-      }
-    }, 
-    {
-      "name": "PHP Support Other Namespace",
-      "scope": [
-        "support.other.namespace.php"
-      ],
-      "settings": {
-        "foreground": "#ABB2BF"
-      }
-    },
-    {
-      "name": "PHP Support Type",
-      "scope": [
-        "support.attribute.php"
-      ],
-      "settings": {
-        "foreground": "#51A0C7"
-      }
-    },
-    {
-      "name": "PHP Function-call",
-      "scope": [
-        "meta.function-call.php"
-      ],
-      "settings": {
-        "foreground": "#F1F1F1"
       }
     } 
 
