@@ -2331,7 +2331,8 @@
 			"scope": [
         "source.php",
         "meta.namespace.php",
-        "entity.name.type.namespace.php"
+        "entity.name.type.namespace.php",
+        "meta.class.body.php"
       ],
 			"settings": {
 				"foreground": "#C2C2C2"
@@ -2424,6 +2425,8 @@
       "scope": [
         "meta.tag.object.livewire:post-list.void.html",
         "meta.tag.object.livewire:post-list.html",
+        "meta.tag.object.livewire",
+        "meta.tag.object.livewire:search-box.void.html",
         "punctuation.definition.tag.begin.blade.livewire",
         "punctuation.definition.tag.end.blade.livewire",
         "meta.tag.blade.livewire",
@@ -2460,7 +2463,25 @@
       "settings": {
         "foreground": "#ABB2BF"
       }
-    }   
+    },
+    {
+      "name": "PHP Support Type",
+      "scope": [
+        "support.attribute.php"
+      ],
+      "settings": {
+        "foreground": "#51A0C7"
+      }
+    },
+    {
+      "name": "PHP Function-call",
+      "scope": [
+        "meta.function-call.php"
+      ],
+      "settings": {
+        "foreground": "#F1F1F1"
+      }
+    } 
 
 
   ]
