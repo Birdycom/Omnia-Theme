@@ -2345,7 +2345,7 @@
 			"name": "HTML String",
 			"scope": [
         "meta.attribute.class.html",
-
+        "meta.attribute.content.html",
 
         "string.quoted.double.html > meta.attribute.id.html"
       ],
