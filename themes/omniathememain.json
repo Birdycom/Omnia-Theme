@@ -448,7 +448,8 @@
     {
       "name": "Entity Other Attribute Name",
       "scope": [
-        "entity.other.attribute-name.html"
+        "entity.other.attribute-name.html",
+        "meta.attribute.align.html"
       ],
       "settings": {
         "foreground": "#51A0C7"
@@ -695,7 +696,7 @@
       }
     },
     {
-      "name": "Source Css Property Name,source Css Property Value",
+      "name": "[VSCODE-CUSTOM] Css Source Css Property Name,source Css Property Value",
       "scope": [
         "source.css property-name",
         "source.css property-value"
@@ -705,13 +706,121 @@
       }
     },
     {
-      "name": "Source Css Property Name Support,source Css Property Value Support",
+      "name": "[VSCODE-CUSTOM] Css Source Css Property Name Support,source Css Property Value Support",
       "scope": [
         "source.css property-name.support",
         "source.css property-value.support"
       ],
       "settings": {
         "foreground": "#ABB2BF"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Property Name",
+      "scope": [
+        "meta.property-name.css",
+        "support.type.property-name.css",
+        "meta.embedded.line.css"
+      ],
+      "settings": {
+        "foreground": "#98C379"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Property Value",
+      "scope": [
+        "meta.property-value.css",
+        "constant.other.color.rgb-value.hex.css"
+      ],
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Entity Other Attribute Name Class",
+      "scope": [
+        "entity.other.attribute-name.class.css",
+        "punctuation.definition.entity.css"
+      ],
+      "settings": {
+        "foreground": "#D7BA7D"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Keyword Other Unit",
+      "scope": [
+        "keyword.other.unit.css"
+      ],
+      "settings": {
+        "foreground": "#D19A66"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Support Constant Value",
+      "scope": "support.constant.property-value.css",
+      "settings": {
+        "foreground": "#C2C2C2"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
+      "scope": "punctuation.definition.constant.css",
+      "settings": {
+        "foreground": "#F44747"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Variable prop",
+      "scope": "variable.prop.css",
+      "settings": {
+        "foreground": "#E06C75"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Support Function Misc",
+      "scope": "support.function.misc.css",
+      "settings": {
+        "foreground": "#56B6C2"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Support Constant Property-value Misc",
+      "scope": "support.constant.property-value.misc.css",
+      "settings": {
+        "foreground": "#FFC91A"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Entity Name Tag html",
+      "scope": [
+        "entity.name.tag.html.css",
+        "entity.name.tag.figure.css",
+        "entity.name.tag.figcaption.css",
+        "keyword.control.at-rule.supports.css",
+        "meta.selector.css"
+      ],
+      "settings": {
+        "foreground": "#C678DD"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Entity Other Attribute-name Pseudo-class.has.css",
+      "scope": [
+        "entity.other.attribute-name.pseudo-class.has.css",
+        "meta.selector.pseudo-class.combinations.css",
+        "source.css entity.other.attribute-name.pseudo-class"
+      ],
+      "settings": {
+        "foreground": "#FFC91A"
+      }
+    },
+    {
+      "name": "[VSCODE-CUSTOM] Css Entity Other Attribute Name Id",
+      "scope": [
+        "entity.other.attribute-name.id.css"
+      ],
+      "settings": {
+        "foreground": "#61AFEF"
       }
     },
     {
@@ -1834,20 +1943,6 @@
       }
     },
     {
-      "name": "[VSCODE-CUSTOM] Css Support Constant Value",
-      "scope": "support.constant.property-value.css",
-      "settings": {
-        "foreground": "#C2C2C2"
-      }
-    },
-    {
-      "name": "[VSCODE-CUSTOM] Css Punctuation Definition Constant",
-      "scope": "punctuation.definition.constant.css",
-      "settings": {
-        "foreground": "#D19A66"
-      }
-    },
-    {
       "name": "[VSCODE-CUSTOM] Sass Punctuation for key-value",
       "scope": "punctuation.separator.key-value.scss",
       "settings": {
@@ -1997,7 +2092,7 @@
         "punctuation.separator.key-value.html"
       ],
       "settings": {
-        "foreground": "#C2C2C2"
+        "foreground": "#E06C75"
       }
     },
     {
@@ -2087,12 +2182,12 @@
       "name": "HTML Entity Name Tag",
       "scope": [
        
-       "meta.tag.structure.div.start.html",
-       "meta.tag.structure.div.end.html",
-       "meta.tag.structure.h1.start.html",
-       "meta.tag.structure.h1.end.html",
-       "meta.tag.structure.h2.start.html",
-       "meta.tag.structure.h2.end.html",
+        "meta.tag.structure.div.start.html",
+        "meta.tag.structure.div.end.html",
+        "meta.tag.structure.h1.start.html",
+        "meta.tag.structure.h1.end.html",
+        "meta.tag.structure.h2.start.html",
+        "meta.tag.structure.h2.end.html",
         "meta.tag.structure.h3.start.html",
         "meta.tag.structure.h3.end.html",
         "meta.tag.structure.h4.start.html",
@@ -2227,7 +2322,20 @@
         "meta.element.structure.svg.html",
         "meta.class.body.php",
         "meta.class.php",
-        "meta.tag.structure.any.html"
+        "meta.tag.structure.any.html",
+        "meta.tag.structure.html.start.html",
+        "meta.tag.structure.html.end.html",
+        "meta.tag.structure.body.start.html",
+        "meta.tag.structure.body.end.html",
+        "meta.tag.structure.head.start.html",
+        "meta.tag.structure.head.end.html",
+        "meta.tag.metadata.title.start.html",
+        "meta.tag.metadata.title.end.html",
+        "meta.tag.metadata.link.void.html",
+        "meta.tag.metadata.doctype.html",
+        "meta.tag.structure.li.start.html",
+        "meta.tag.structure.li.end.html"
+
       ],
       "settings": {
         "foreground": "#E06C75"
@@ -2249,6 +2357,7 @@
 			"name": "(=) HTML Meta Attribute Class",
 			"scope": [
         "meta.tag.object.start.html",
+        "meta.tag.object.end.html",
         "meta.attribute.stroke.html",
         "meta.attribute.viewBox.html",
         "meta.attribute.stroke-width.html",
@@ -2261,7 +2370,11 @@
         "meta.attribute.unrecognized.wire:model.live.html",
         "meta.attribute.unrecognized.x-on:confirming-logout-other-browser-sessions.window.html",
         "meta.attribute.unrecognized.wire:keydown.enter.html",
-        "meta.attribute.unrecognized.wire:then.html"
+        "meta.attribute.unrecognized.wire:then.html",
+        "meta.attribute.href.html",
+        "meta.attribute.unrecognized.x-on:change.html",
+        "meta.attribute.unrecognized.x-show.html",
+        "meta.attribute.unrecognized.x-bind:style.html"
       ],
 			"settings": {
 				"foreground": "#DCDCAA"
