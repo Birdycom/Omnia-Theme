@@ -2332,7 +2332,7 @@
       }
     },
     {
-      "name": "Source Php Class Bracket",
+      "name": "PHP Source Class Bracket",
       "scope": [
         "source.php class.bracket"
       ],
@@ -2489,6 +2489,16 @@
       ],
       "settings": {
         "foreground": "#98C379" 
+      }
+    },
+    {
+      "name": "PHP Meta Method Call,meta Method",
+      "scope": [
+        "meta.method-call.php",
+        "meta.method.php"
+      ],
+      "settings": {
+        "foreground": "#7DB6B6"
       }
     } 
 
