@@ -1,0 +1,58 @@
+name: Release
+
+# Tag v* (same as the version in package.json): publishes Omnia Theme to the VS Code Marketplace (VS Code)
+# and Open VSX (Cursor, VSCodium, Windsurf). Secrets: VSCE_PAT (Azure DevOps, Marketplace > Manage) and OVSX_PAT.
+# A registry whose secret is missing is skipped. The .vsix is also kept as a workflow artifact.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      HAS_VSCE: ${{ secrets.VSCE_PAT != '' }}
+      HAS_OVSX: ${{ secrets.OVSX_PAT != '' }}
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+
+      - name: Check tag matches version
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          V=$(node -p "require('./package.json').version")
+          if [ "v$V" != "${GITHUB_REF_NAME}" ]; then echo "Tag ${GITHUB_REF_NAME} != version v$V"; exit 1; fi
+
+      - name: Check theme JSON
+        run: node -e "JSON.parse(require('fs').readFileSync('themes/omniathememain.json','utf8'))"
+
+      - name: Package
+        run: npx --yes @vscode/vsce@3 package --no-dependencies --out omnia-theme.vsix
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: omnia-theme
+          path: omnia-theme.vsix
+
+      - name: Publish to the VS Code Marketplace
+        if: env.HAS_VSCE == 'true'
+        run: npx --yes @vscode/vsce@3 publish --packagePath omnia-theme.vsix
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+
+      - name: Publish to Open VSX
+        if: env.HAS_OVSX == 'true'
+        # The namespace already exists (created by OmniaCSS IntelliSense); create-namespace then fails and that is ignored.
+        run: |
+          npx --yes ovsx@0.10 create-namespace "$(node -p "require('./package.json').publisher")" || true
+          npx --yes ovsx@0.10 publish omnia-theme.vsix
+        env:
+          OVSX_PAT: ${{ secrets.OVSX_PAT }}

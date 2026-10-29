@@ -1,0 +1,14 @@
+/* Brand colors on top of OmniaCSS */
+:root {
+  --brand: var(--color-ral3020);
+  --radius: 0.75rem;
+}
+
+.plan-price {
+  color: var(--brand);
+  font-size: clamp(1.25rem, 2vw + 1rem, 2rem);
+}
+
+@media (prefers-color-scheme: dark) {
+  .oc-card:hover { background: color-mix(in oklch, var(--brand) 20%, transparent); }
+}

@@ -1,21 +1,24 @@
 {
   "name": "omnia-theme",
   "displayName": "Omnia Theme",
-  "description": "The Omnia theme from Birdycom for VS Code. This theme is based on Atom",
-  "version": "0.1.0",
+  "description": "A calm dark theme from Birdycom, tuned for HTML, Blade, PHP, CSS and JavaScript. Pairs with OmniaCSS IntelliSense.",
+  "version": "1.0.0",
   "publisher": "Birdycom",
-  "license":"MIT",
+  "author": "Serge Cools (Birdycom)",
+  "license": "MIT",
+  "icon": "media/icon.png",
   "galleryBanner": {
-		"color": "#282C34",
-		"theme": "dark"
-	},   
+    "color": "#282C34",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/Birdycom/Omnia-Theme#readme",
   "repository": {
-		"type": "git",
-		"url": "https://github.com/Birdycom/Omnia-Theme.git"
-	},
-	"bugs": {
-		"url": "https://github.com/Birdycom/Omnia-Theme/issues"
-	},
+    "type": "git",
+    "url": "https://github.com/Birdycom/Omnia-Theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Birdycom/Omnia-Theme/issues"
+  },
   "engines": {
     "vscode": "^1.89.0"
   },
@@ -23,11 +26,15 @@
     "Themes"
   ],
   "keywords": [
-		"theme",
-		"dark",
-		"omnia",
-    "birdycom"
-	],
+    "theme",
+    "dark",
+    "omnia",
+    "omniacss",
+    "birdycom",
+    "blade",
+    "php",
+    "html"
+  ],
   "contributes": {
     "themes": [
       {
@@ -36,5 +43,13 @@
         "path": "./themes/omniathememain.json"
       }
     ]
+  },
+  "scripts": {
+    "icon": "node scripts/icon.mjs",
+    "screenshots": "node scripts/screenshots.mjs",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "playwright-core": "1.48.2"
   }
 }

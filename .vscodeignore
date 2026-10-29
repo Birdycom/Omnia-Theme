@@ -1,4 +1,12 @@
 .vscode/**
 .vscode-test/**
+.github/**
+node_modules/**
+scripts/**
+samples/**
+media/icon.svg
+*.code-workspace
 .gitignore
-vsc-extension-quickstart.md
+.gitattributes
+*.vsix
+screenshots/**

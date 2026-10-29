@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pricing</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@birdycom/omniacss/dist/omnia.min.css">
+</head>
+<body class="bg-ral9003 text-ral7016">
+  <!-- Two plans side by side from the md container size -->
+  <section class="cq-inline grid cq-md:grid-cols-2 gap-4 p-6">
+    <article class="oc-card">
+      <h2 class="text-balance font-bold">Team</h2>
+      <p class="plan-price">EUR 29 / month</p>
+      <a class="oc-btn hover:bg-ral3020-mix-20" href="/order?plan=team">Order</a>
+    </article>
+    <article class="oc-card dark:bg-ral7016">
+      <h2 class="font-bold">Business</h2>
+      <p class="plan-price">EUR 79 / month</p>
+      <button class="oc-btn oc-btn--outline" type="button" disabled>Soon</button>
+    </article>
+  </section>
+  <script>
+    const plans = document.querySelectorAll(".oc-card");
+    plans.forEach((card, i) => card.dataset.index = String(i + 1));
+  </script>
+</body>
+</html>
