@@ -4,6 +4,7 @@
 
 First release on the VS Code Marketplace and Open VSX. The colors are unchanged from the version Birdycom has used since 2024.
 
+- Shown as **Birdycom Omnia Dark** in the stores; in the theme picker it is still **Omnia Theme Main**.
 - New icon, README and screenshots.
 - License: the MIT notice of One Dark, the theme Omnia Theme started from, is now included.
 

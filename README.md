@@ -1,4 +1,4 @@
-# Omnia Theme
+# Birdycom Omnia Dark
 
 A calm dark theme for VS Code and Cursor, made by [Birdycom](https://birdycom.be) and used every day for HTML, Blade, PHP, CSS and JavaScript work. Muted backgrounds, clear syntax colors and a soft contrast that stays easy on the eyes during long sessions.
 
@@ -8,7 +8,7 @@ A calm dark theme for VS Code and Cursor, made by [Birdycom](https://birdycom.be
 
 | Editor | Where |
 |---|---|
-| VS Code | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Birdycom.omnia-theme), or search *Omnia Theme* in the Extensions view |
+| VS Code | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Birdycom.omnia-theme), or search *Birdycom Omnia Dark* in the Extensions view |
 | Cursor, VSCodium, Windsurf | [Open VSX](https://open-vsx.org/extension/Birdycom/omnia-theme), the same search in the Extensions view |
 
 Then open the Command Palette (<kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>P</kbd>), choose **Preferences: Color Theme** and pick **Omnia Theme Main**.
@@ -47,7 +47,7 @@ Colors were tuned by hand for the languages of a typical web project:
 
 ## With OmniaCSS
 
-Omnia Theme pairs with [OmniaCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=Birdycom.omniacss-intellisense): autocomplete, hover CSS and color swatches for every [OmniaCSS](https://omniacss.eu) utility and [OmniaUI](https://omniaui.eu) class. The theme works just as well without it.
+Birdycom Omnia Dark pairs with [OmniaCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=Birdycom.omniacss-intellisense): autocomplete, hover CSS and color swatches for every [OmniaCSS](https://omniacss.eu) utility and [OmniaUI](https://omniaui.eu) class. The theme works just as well without it.
 
 ## Your own tweaks
 
@@ -79,6 +79,6 @@ A new version is published by pushing a tag `v<version>` that matches `package.j
 
 ## Credits
 
-Omnia Theme started from [One Dark](https://github.com/akamud/vscode-theme-onedark) by Mahmoud Ali, itself based on Atom's One Dark, and was then reworked by Birdycom. Both are MIT licensed; see [LICENSE](LICENSE).
+Birdycom Omnia Dark started from [One Dark](https://github.com/akamud/vscode-theme-onedark) by Mahmoud Ali, itself based on Atom's One Dark, and was then reworked by Birdycom. Both are MIT licensed; see [LICENSE](LICENSE).
 
 MIT © Birdycom
