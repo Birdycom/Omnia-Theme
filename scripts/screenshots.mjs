@@ -114,5 +114,21 @@ for (const [file, name] of SHOTS) {
   console.log("[screenshots]", `screenshots/${name}.png`);
 }
 
+// The workbench around the editor: back to the HTML file, the terminal panel open and the Command Palette showing.
+await page.keyboard.press("Control+P");
+await page.keyboard.type("pricing.html", { delay: 20 });
+await page.waitForTimeout(600);
+await page.keyboard.press("Enter");
+await page.keyboard.press("Control+`");
+await page.waitForTimeout(2500);
+await page.keyboard.type("git status", { delay: 20 });
+await page.keyboard.press("Control+Shift+P");
+await page.waitForTimeout(400);
+await page.keyboard.type("theme", { delay: 30 });
+await page.waitForTimeout(1200);
+const { data } = await cdp.send("Page.captureScreenshot", { format: "png" });
+fs.writeFileSync(path.join(out, "workbench.png"), Buffer.from(data, "base64"));
+console.log("[screenshots]", "screenshots/workbench.png");
+
 await browser.close().catch(() => {});
 code.kill();

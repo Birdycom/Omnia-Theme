@@ -29,6 +29,12 @@ Colors were tuned by hand for the languages of a typical web project:
 | **CSS, SCSS, Less** | selectors, custom properties, at-rules and units |
 | **JavaScript, JSON, YAML, Markdown, Python** | keywords, strings, keys and headings |
 
+### The whole workbench
+
+Menus, the Command Palette, the terminal, panels, notifications and the chat views use the same tones as the side bar.
+
+<img src="screenshots/workbench.png" alt="The Command Palette and the terminal panel in Birdycom Omnia Dark" width="100%">
+
 ### Blade
 
 <img src="screenshots/blade.png" alt="A Blade view with @foreach, @class and echoes" width="100%">
