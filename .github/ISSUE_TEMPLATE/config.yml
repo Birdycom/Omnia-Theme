@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: OmniaCSS IntelliSense (editor extension)
+    url: https://github.com/Birdycom/OmniaCSS/issues/new/choose
+    about: Autocomplete, hover CSS and linting for OmniaCSS classes are reported in the OmniaCSS repository.

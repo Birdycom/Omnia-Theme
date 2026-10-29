@@ -1,0 +1,25 @@
+name: Theme issue
+description: A color that is hard to read, missing or wrong in Birdycom Omnia Dark.
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What looks wrong?
+      description: A screenshot helps most. Say which part of the editor or which language it is.
+      placeholder: "In PHP files, the `use` keyword has the same color as the class name after it."
+    validations:
+      required: true
+  - type: input
+    id: token
+    attributes:
+      label: Scope or color id (optional)
+      description: "Command Palette → Developer: Inspect Editor Tokens and Scopes shows the scope under the cursor."
+      placeholder: "keyword.other.use.php"
+  - type: input
+    id: env
+    attributes:
+      label: Editor and theme version
+      placeholder: "VS Code 1.106, Birdycom Omnia Dark 1.1.0"
+    validations:
+      required: true
